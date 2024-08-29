@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenario</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+	/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+	
+	
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url("laksindu.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+	
+}
+
+.hero .btn:hover {
+    background-color: #ff4500;
+	
+}
+
+/* Category Section Styles */
+main {
+    padding: 50px 0;
+}
+
+.category {
+    margin-bottom: 50px;
+}
+
+.category h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #444;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+	
+}
+
+.product:hover {
+    transform: translateY(-20px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+               <center><h1><font size="+6"><i>Scenario</h1></center></font></i>
+            </div>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#mens">Men's</a></li>
+                    <li><a href="#womens">Women's</a></li>
+                    <li><a href="#kids">Kid's</a></li>
+                    <li><a href="mailto: laksindujanith18104@email.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Shop the Latest Trends</h2>
+            <b><p>Discover fashion for Men, Women, and Kids.</p></b>
+            <a href="#mens" class="btn">Men's</a>
+            <a href="#womens" class="btn">Women's</a>
+            <a href="#kids" class="btn">Kid's</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="mens" class="category">
+            <hr><h2>Men's Collection</h2><hr><br>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="mensjaket.png">
+                    <h3>Men's Jacket</h3>
+                    <p>$29.00</p>
+                    <button><a href="https://www.ebay.com/itm/386231133844?_nkw=mens+jaket&itmmeta=01J6D0TKV93397N6NBVTTBVCP6&hash=item59ed2b6694:g:BJMAAOSwQz5lOtCs&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKmb7HnskD8bNl2x0YNkGTBktwiXPfoOCMPh8LHvFpvlcCqb4W8yc8eOpbdQR126a1thUHQgJp4RLZerstjgPHzMkdU32E7da5FwF%2Bp7WNm6%2FcnRCQXMOIU0F55UTr%2FElj9K8xWH0dwjCsDsuklCJE8MiQSX7AGeZb%2FBB7H0lsoZjrvqlyEpBLsqkxfilVak9166bmOV7BXPPCyqPUOBJlP6UmDGGI4sepZDYPzcGwXxpGyrvcxNaOFHKzWkvci6LQq2iE%2FLep42LFlLiUm%2FxtAx%7Ctkp%3ABk9SR-C96qCzZA"><font color="white">buy now</button></a>
+ </font>               </div>
+                <div class="product">
+                    <img src="sneake.png">
+                    <h3>Men's Sneakers</h3>
+                    <p>$83.99</p>
+                    <button><a href="https://www.ebay.com/itm/235665366662?_nkw=mens+sneakers&itmmeta=01J6D1AXBQM5M37RA23YVF1MT8&hash=item36dec01e86:g:Lw0AAOSwJEBmoDs6&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKkJzeQo7Jn%2F6QmwvbsH8xid2bmv9UglgXsrnccj%2BlE9gJyY3GJH8WxgixG67f6EtGWHT1%2BO0iOWcA%2ByDn0IlXtKmHlyGxJiwDQyxGWh2XBsu%2FrYZAhgkZBHZ5ASm8wXmHWxLbXjj3GqHRck%2FUV2mdH1WaoN8Q8saT8wlMDrONmttq7tui1%2BGyNYE2JFLrM7ccfIk4dni%2BwjEq5JxcaPTuk5WRLSLw%2FyPtSE1sPOkQ8QX0KLDlFA2NGVNZb9FZEK9MQ89yzeaskqP8iH4GXpbqKo%7Ctkp%3ABFBMjNarobNk"><font color="white">buy now</button></a></font>
+                </div>
+                <div class="product">
+                    <img src="adidas.png">
+                    <h3>adidas t-Shirt</h3>
+                    <p>$17,19</p>
+                    <button><a href="https://www.ebay.com/itm/375515503985?_nkw=mens+t+shirts+adidas&itmmeta=01J6D1VHMVV3ECYWEH3TF6AD19&hash=item576e77dd71:g:uGcAAOSwOJxmg1Ao&itmprp=enc%3AAQAJAAAA0HoV3kP08IDx%2BKZ9MfhVJKkd5OsS%2FKt%2FpvVMmKTO9ONAFxgAlE9c5azTBz4tQbxujzLpIT1aM%2FAFRiUoXrff3JzxihgUidw1rMKsyagSA1mcVBMRN62FtBBrnPbuTOPDGoUGvgQhD7mRygaNtfCQL9jF28Kgo2tYmRp%2BrmgExS9S7w1pm7d0pg%2Fl3v48JiPFu7nBzuSZUPGfqIj7pjrn5GglAPIiuJTey0tB0hNp1sMpmjBi31b9s0GvD4UqGkZ7t1me%2B0w9tOs2%2FJNfepNH05E%3D%7Ctkp%3ABk9SR8Ka7qGzZA"><font color="white">buy now</button></a></font>
+                
+				</div>
+				                <div class="product">
+                    <img src="jeans2.png">
+                    <h3>Men's jeans</h3>
+                    <p>$29.99</p>
+                    <button><a href="https://www.ebay.com/itm/186574744532?_nkw=mens+jeans&itmmeta=01J6D22DWD7Z8QJ6XKXQMVHSVW&hash=item2b70b8abd4:g:gI0AAOSwhA1mmWO8&itmprp=enc%3AAQAJAAAA8HoV3kP08IDx%2BKZ9MfhVJKm9uRKtAF9kSNQrJ4Z0WA8jhnF%2FeFbhfU1Vb9dFfQCzY1bLuilvLlKR9bHwSSJln3FHBw3ts9wdYqloLvianFkGl%2F9ledHFEJLQK6d3ykDMtZBEpDQD4Zuz0Hm%2Bt4IE4k7GbQUCOftsQhIUdE3bpZ8ceT3kW8hd3YYpewVIvkP8JW%2FjxC679d9YMhwSyjBvFrXLzvAd9DQvaUH5HoIcPMaZ5b29g%2F2YM8OMScyc7eIIVIRYIAzgSKy2QfE%2BkcV9LyzPc0EEMD5fsoMJzvdhCIu9e3IOsCCqba4IeD8WO0gQ1A%3D%3D%7Ctkp%3ABk9SR6jeiaKzZA"><font color="white">buy now</button></a></font>
+                </div>
+				                <div class="product">
+                    <img src="short.png">
+                    <h3>Men's short</h3>
+                    <p>$27.86</p>
+                    <button><a href="https://www.ebay.com/itm/375311417953?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D271655%2C271289%26meid%3Ddbc175f4dba945288152a34dc084aedb%26pid%3D101875%26rk%3D3%26rkt%3D4%26sd%3D256130614585%26itm%3D375311417953%26pmt%3D1%26noa%3D0%26pg%3D2332490%26algv%3DSimplAMLv11WebTrimmedWithMfgPhase2WithCassiniVisualRankerAndBertRecallWithPLXSizeFilterCPCAutoManual%26brand%3DAdidas&_trksid=p2332490.c101875.m1851&itmprp=cksum%3A375311417953dbc175f4dba945288152a34dc084aedb%7Cenc%3AAQAJAAABYPNAuitJ4slv9QvgcbgKxVENif2EQPA4rsfSbXbdinWaD54e%252BTrCLpDUBxZfv3bTLjgzDIFfnniu6OIb%252BsvTqNrLYLxVmQKC%252BIvh9wuNRzn%252B2VBPJCeIZ0lF%252FAQF2evAU%252BQVR4TiKu0vfXzbI1AqzfUEp%252B5ctMpwar38Wyo5YLk2RJ2jSSepmpwXmgnjxr%252BkppgP3KNKS53SlU51399DAPPyT6URkPhYrr1ehSSSeVJlBvc7cxiDT4A3NO%252FGLnil%252FvrlfHaTdm6I8SNITSVXWOsUvu0XBUTZuE8LxuZKB4MTVElin8k8%252FKw3CuUp389INusQmyvl5wMSPujrw%252B4JA07XAthWtmYcJNpZwYM%252Fy4BitzdwrdgGuVbqC6gAiISDVLUN%252F3%252B090FW0BMSVMKhDxm9CkTz28Y0DL74z8L8v70tDFPXU4qmeVoJInb5OmVfkqG3tMYhGg3iKmkqy6n6MIo%253D%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01J6D29SFBHYMAFZB76DW8VTR3"><font color="white">buy now</button></a></font>
+               
+            </div>
+        </section>
+
+        <section id="womens" class="category">
+           <hr> <h2>Women's Collection</h2><hr>
+		  
+		   <br>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="wmoen'sjen.png">
+                    <h3>Women's jeans</h3>
+                    <p>$65.00</p>
+                    <button><a href="https://www.ebay.com/itm/204810806865?_nkw=womens+jeans&itmmeta=01J6D2KDKK8XFD2R85Z2Y5GH9E&hash=item2faface651:g:q0MAAOSwvMBmWTGh&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKnZnGwWm5CRTBKZhoz1GLmYFzWRkoMubOtJcTgbLOznojsYjn42p%2BjbG6Zqt7%2F%2ByX7sEtMsb4lnbiZoPWHFUEcxB9vgagwzMeXu%2FKefYj2xtFcob7mfGHMlLmOyOOh7lcm4PjHL4aBhMSi1d3vwV4YPvv8WKGP8HaL1qwF%2F4wcss8TDzVNhM3dAm4CCNZ219n8RUG6bt9hyOMwspj1meGIjG6SLqd7oxFKgU1KXJveWKyhrxtD2%2FsHNcfA0DbcQIMqsQnBdJPg0z0TPa3hvjzoN%7Ctkp%3ABFBM8tnNorNk"><font color="white">buy now</button><a/></font>
+                </div>
+				
+                <div class="product">
+                    <img src="heels.png">
+                    <h3>Women's Heels</h3>
+                    <p>$17.99</p>
+                    <button><a href="https://www.ebay.com/itm/166940680931?_nkw=womens+heels&itmmeta=01J6D72V91FC7BXA8JVBZZ0F53&hash=item26de70a2e3:g:AP4AAOSw195mznUu&itmprp=enc%3AAQAJAAAA0HoV3kP08IDx%2BKZ9MfhVJKk64Ish5G6OPCGnqBk5JNt1TwCifAnsIjb4TE5sGmLuciIntkugQO0L9J66NWZhlCC8x8gqWsXGy3lPYfzf3ymMQa4Iz3HMjdY14%2Fb7pS%2FdpW807MlarW%2B3mVGJmsSOA0GGGIXzM0mKhPo3uSwACWypsB7qRHsZIcBi1h28fKqP2YwhdC%2B5IKJlxAmZCDoMhGQo8eFLRFiJoqW7xXPTebDP9263GzEj8hru1fC8O%2BwQ%2F4Nf6Rm22LhfuRM85%2BB3JjI%3D%7Ctkp%3ABk9SR9C0i6ezZA"><font color="white">buy now</button></font></a>
+                </div>
+			</div><br>
+          <center>  <div class="product">
+                    <img src="wmjak.png">
+                    <h3>Women's jaket</h3>
+                    <p>$26.47</p>
+                    <button><a href="https://www.ebay.com/itm/303067004157?_nkw=womens+jackets&itmmeta=01J6D3849S5P3V6Q8JNV2514AZ&hash=item4690337cfd:g:3QEAAOSw~Y1kzBaO&itmprp=enc%3AAQAJAAAA8HoV3kP08IDx%2BKZ9MfhVJKmIKkD4UCfdZ1ls7yC6KROGKnuUELr0NcQva2sAbbkP7hVuoFG8UTQtIxXsAKarlCLbeltroq4vjPv0v%2Ffc7Z2dWUYjAcBRL9B0PM71rrZvSs8L3no5%2BFhQMzPLJVKDe8LFaSA%2F8rG25IYUzfiHYfsf8bVivWLyEXIHsT%2F0BYfDkIXS9wf%2BXzF%2BiiCcaTi8gbZS1IWd9aBOk6hNTFEV0HHNrKFGOQBMXQcggx4y4lJNUdlA%2FTIgZ3kqMv95xQyJJBuHwX2Wq8AG7NCDVqugFqaPe3waCloJPri912smLKI3Hw%3D%3D%7Ctkp%3ABk9SR4DFoKOzZA"><font color="white">buy now</button></a></font>
+                </div></center>
+				<br>
+				
+			
+			<center>	</div></div>   
+				<div class="product">
+                    <img src="wmsweeter.png">
+                    <h3>Women's Sweater</h3>
+                    <p>$15.73</p>
+                    <button><a href="https://www.ebay.com/itm/394806102990?_nkw=womens+sweaters&itmmeta=01J6D4YGPNZB7CF954Q9DADCRF&hash=item5bec470bce:g:mh8AAOSwWIpkWeGh&itmprp=enc%3AAQAJAAAA8HoV3kP08IDx%2BKZ9MfhVJKneV6E3mW29Uk0j%2B927%2FW0mGTq0SHUGaCQiSYtoxc37DS4AQbA3V3ntZ8uyXXVd5M8Whpg4%2FEufhcNm96oVabIKS7Ny%2FUZYaOHCBjqVtdypc67XVvwVQ4Zbjg%2FU7%2B4zQfuwsmN7e6hDEKOlOtiXf5eOO12%2BeP1fHSArIOCr3luO9OwEU%2B2u9ilxynOrh%2B%2BJAJDLsMMn%2BXqWnd4A59hzT9GEZs6vhLNMPjVTO6gHDP5ujPA7nZCIXPXA3tnzxii5GBQA2KXWaCly%2FCd0TFe3SNLO4q2cp2DkQjzOs0YiiRmQRQ%3D%3D%7Ctkp%3ABk9SR7iL-qSzZA"><font color="white">buy now</button></a></font>
+					</div></center>
+
+            </div>
+        </section>
+
+        <section id="kids" class="category">
+           <hr><h2>Kids' Collection</h2><hr>
+		   <br>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="ks.png">
+                    <h3>Kids' T-Shirt</h3>
+                    <p>$15.82</p>
+                    <button><a href="https://www.ebay.com/itm/186244463460?_nkw=kid+dangerous+t+shirt&itmmeta=01J6D5MN9WVVQ9GT8WPBFBNS62&hash=item2b5d08fb64:g:RAEAAOSwqullnI4U&itmprp=enc%3AAQAJAAAA8HoV3kP08IDx%2BKZ9MfhVJKnB6OTC7N4ZlTyRxiXb0JdQJdSVPV6QIPiVBGAMikngGoLXUJHCsCfjt2r45G0SfOqgH5skCuitbJ5PG7XtVJZWnimdeisVeHw2ceUtJB1KeZJS6m5FY2b0WCEFX0WGrZIP%2BUu9N6DpjYqVjlWkfCppiH%2BNqUuMdi%2BiK8L6RENZZq8SKPij6l122s%2BejuJeHs%2FZzNeeiVAxuXSIgq%2FnbYaVSyKNMSl%2FzEO0YQeHmEzTB5yjIJGHWUgLKnYAk8GEgEDJ4toGYf%2Bm%2BxLQgYQwS5Ese13s91M1twcLlD3YdO4fKA%3D%3D%7Ctkp%3ABk9SR4bV0qWzZA"><font color="white">buy now</button></a></font>
+                </div>
+                <div class="product">
+                    <img src="kdnea.png">
+                    <h3>Kids' Sneakers</h3>
+                    <p>$59.99</p>
+                    <button><a href="https://www.ebay.com/itm/176299773224?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D271655%2C271289%26meid%3D5db9f672cd9844069fc05bddabe900a2%26pid%3D101875%26rk%3D2%26rkt%3D4%26sd%3D226247155228%26itm%3D176299773224%26pmt%3D1%26noa%3D0%26pg%3D2332490%26algv%3DSimplAMLv11WebTrimmedWithMfgPhase2WithCassiniVisualRankerAndBertRecallWithPLXSizeFilterCPCAutoManual%26brand%3Dadidas&_trksid=p2332490.c101875.m1851&itmprp=cksum%3A1762997732245db9f672cd9844069fc05bddabe900a2%7Cenc%3AAQAJAAABYPNAuitJ4slv9QvgcbgKxVENif2EQPA4rsfSbXbdinWaD54e%252BTrCLpDUBxZfv3bTLjgzDIFfnniu6OIb%252BsvTqNrLYLxVmQKC%252BIvh9wuNRzn%252B2VBPJCeIZ0lF%252FAQF2evAU%252BQVR4TiKu0vfXzbI1AqzfVovfr632Hegp5gAzjNObjNC7jfhy3Yd1w4HJpxnukajLYhkoZuC2CqlP4gQbBeHiVPCDu%252FuNpm1ZuUV2bNJdvi90eq6ZtmeekpqKL4MFKNgYSOTWiwA98buAym8F4zMGuEdEfR4fhGHyJ4lAR8u%252F33YUu672KXC%252BL7I2ppUg7wbxurj3D4os93b9kSJxrLchjy2SbKSTSKhDYZcusBwI0w7kcgknUf3PJ5b%252BJNrySTmfyFTIuXqYFxcKjLEsWauVR%252BXbggb5JbfFfDYgmJqEXvGNruOdrppDFmLYwn52WKtp9HGWVwvimyPLq9KMfQpIk%253D%7Campid%3APL_CLK%7Cclp%3A2332490&epid=21059770443&itmmeta=01J6D5VSBN927EZK71NK7PWS0D"><font color="white">buy now</button></a></font>
+                </div>
+                <div class="product">
+                    <img src="kdcap.png">
+                    <h3>Kids' Cap</h3>
+                    <p>$13.00</p>
+                    <button><a href="https://www.ebay.com/itm/305602590634?_nkw=kids+cap&itmmeta=01J6D61W4TR5YVA80XCWE9CFJB&hash=item47275577aa:g:ZlgAAOSwU-dmxEHJ&itmprp=enc%3AAQAJAAAAwHoV3kP08IDx%2BKZ9MfhVJKlDwv8EK%2BRbZkVfzE6C7eh--qXHU1L1HLTWCfAA6GdHLyq6M7bc8%2Fbu2YhAFDfOFOXq%2F%2BmXiPcJCOqOTlwaOAdRjnQRRjLjtb6kNWa%2By6ITfKVOrn0LcPOG5FOUO1exwWJIMBpf8braK1jXo3%2F4jxnAzcP3FHeMLKpqENtgCTsjbYr8NM%2FZoGq3TdbLGyEi4w031Y4TgAo%2BhMIKr8J8cta00wHS85J%2FB4prUXmsWN7IbA%3D%3D%7Ctkp%3ABk9SR8LCh6azZA"><font color="white">buy now</button></a></font>
+                </div>
+				                <div class="product">
+                    <img src="kidsh.png">
+                    <h3>Kid,s short</h3>
+                    <p>$15.87</p>
+                    <button><a href="https://www.ebay.com/itm/276110925892?_nkw=kids+shorts&itmmeta=01J6D685CPK2YRDY8FQW0FVHDZ&hash=item40497e6044:g:mosAAOSwwEZlqQXz&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKnIFGU3l9P7esmGH3Qo8i9WLfpOgHohR%2B2zK%2BKU7vq5Nrdy8R%2FFy9EW0JoHDk8JhePgAg1ELfzN4r9m0N0AOjNxvLuT3xwpUtQOs6ae5i%2B7VxJwNLvIwqJaBTD3PqZE554G34oC9QEEVfL9CSpM5iBL6GS0CIWx7%2BKJubRyPQNSEBTOSl028zSAOos%2B47g5%2B4OR4BR1HBlCPTNoPe3KzVL%2B8sQ%2Ff5MZH%2BbjNa%2BTmbBskuBjC5pvGQqy4ePoNX3gQDJ2DKUsUNHOp5ultatWyD%2FB%7Ctkp%3ABFBMutagprNk"><font color="white">buy now</button></a></font>
+                </div>
+				                <div class="product">
+                    <img src="kdjak.png">
+                    <h3>Kids' jaket</h3>
+                    <p>$14.54</p>
+                    <button><a href="https://www.ebay.com/itm/173698505429?_nkw=kids+jacket&itmmeta=01J6D6F0SVGA2RTY563NQECYKZ&hash=item28713cdad5:g:4oEAAOSwGVFcGfxY&itmprp=enc%3AAQAJAAAA0HoV3kP08IDx%2BKZ9MfhVJKk%2BX%2B5aR5rl9cVkXxdZXKEutES0H4MoUpqVBNN5OubffBcVURg9DI0%2FXS7iTsVlebCrnyJZySi6eFMLVNeOabEbGPrHUomFARQmugU7Vyy2FEhodT8GPB%2FGmpCm%2BUQ7VpVb47EfG0RAg0Rj%2Fpwv7T1HSShxZNnmASTUrNl5VA3goe3tQhzxLUFxfaC5hbtPbEr2ADX5DhlAlmNYFELk8IQx250oizRJQG%2Fe4jWFPwTIsRr4IyZf58i%2FY%2FgQ9sKr86k%3D%7Ctkp%3ABk9SR4KNvKazZA"><font color="white">buy now</button></a></font>
+					
+                </div>
+				                <div class="product">
+                    <img src="kdjns.png">
+                    <h3>Kids' Cap</h3>
+                    <p>$10.57</p>
+                    <button><a href="https://www.ebay.com/itm/235006862909?_nkw=kids+jeans&itmmeta=01J6D6PB1FMX9YVBZ79BF9MC55&hash=item36b780263d:g:adIAAOSw1HVe32nr&itmprp=enc%3AAQAJAAAAwHoV3kP08IDx%2BKZ9MfhVJKkl4Yauzl6JkMoNlfdCO7f2XEZ6%2FkU21N%2F4QgpZw1uWdWWVMdaFIdex3tVTMzNRllQ2L4F2r7MGSg17H9U4xSAfm5kCu9N61om5WF52MgNaelQcdG%2Bm11r9wYXsuzkWuGInVFTpOdgqLq7J5K4%2BRkN0YefzzeEepslUhn3MW0TKBs%2BHKxSLO%2F8pka3e%2B3DS8Ro8RjZy1SF84mOhmNPaZswBlXZLvOHyfntoRWuVe2P6zw%3D%3D%7Ctkp%3ABk9SR-qw2aazZA"><font color="white">buy now</button></a></font>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Scenario. Laksindu</p>
+			<p>Contact us| +94762653429</p>
+        </div>
+    </footer>
+</body>
+</html>
+
